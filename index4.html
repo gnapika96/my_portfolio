@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+      <title>My Portfolio</title>
+  <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    
+   <nav class="navbar">
+    <div class="profile_name">
+      <p>Gnapika</p>
+      <p class="email">jashye@email.com</p>
+      <p class="phone">📞 +1234567890</p>
+    </div>
+    <div class="nav_links">
+      <div class="topmenu"><a href="#about">About Me</a></div>
+      <div class="topmenu"><a href="#skills">Skills</a></div>
+      <div class="topmenu"><a href="#projects">Projects</a></div>
+      <div class="topmenu"><a href="#recommendations">Recommendations</a></div>
+    </div>
+  </nav>
+  <section id="about">
+  <h2>About Me</h2>
+  <div class="about-container">
+    <img src="myphoto.jpg" alt="Profile Photo" class="about-image" />
+    <div class="about-text">
+      <h3> Hi, I am Gnapika</h3>
+      <p>
+        I am a creative web developer passionate about building intuitive, user-friendly websites and applications. I enjoy solving problems with code and love turning ideas into reality through elegant design.
+      </p>
+    </div>
+  </div>
+</section>
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-container">
+    <div class="skill">
+      <img src="images/html.png" alt="HTML" />
+      <p>HTML</p>
+    </div>
+    <div class="skill">
+      <img src="images/css.png" alt="CSS" />
+      <p>CSS</p>
+    </div>
+    <div class="skill">
+      <img src="images/javascript.png" alt="JavaScript" />
+      <p>JavaScript</p>
+    </div>
+    <div class="skill">
+      <img src="images/python.png" alt="Python" />
+      <p>Python</p>
+    </div>
+    <div class="skill">
+      <img src="images/git.png" alt="Git" />
+      <p>Git</p>
+    </div>
+  </div>
+</section>
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>Portfolio Website</h3>
+    <p>A personal portfolio built with HTML, CSS, and JavaScript to showcase web development skills and projects.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>Weather App</h3>
+    <p>A weather forecasting app that uses OpenWeather API to show current conditions and a 5-day forecast.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>Task Tracker</h3>
+    <p>A to-do list web app that lets users add, delete, and mark tasks as complete using local storage.</p>
+  </div>
+</section>
+<section id="recommendations">
+  <h2>Recommendations</h2>
+
+  <div class="recommendation">
+    <p>Gnapika has an incredible eye for design and consistently delivers high-quality work. Her problem-solving skills and attention to detail make her an asset on any project.</p>
+  </div>
+
+  <div class="recommendation">
+    <p>I was impressed with how quickly and efficiently Gnapika completed our website. She's professional, communicates well, and goes above and beyond to meet client needs.</p>
+  </div>
+
+  <div class="recommendation">
+    <p>Working with Gnapika was a fantastic experience. Her technical skills and creative ideas brought our vision to life. Highly recommended for any web development project.</p>
+  </div>
+</section>
+<section id="recommendations">
+  <h2>Recommendations</h2>
+
+  <!-- Input area -->
+  <textarea id="new_recommendation" placeholder="Enter your recommendation here..." rows="4" cols="50"></textarea>
+  <br />
+  <button id="recommend_btn" onclick="addRecommendation()">Add Recommendation</button>
+
+  <!-- Existing recommendations -->
+ 
+
+<a href="#home">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>
+</a>
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <div class="popup-icon">✔️</div>
+    <p><strong>Thanks for leaving a recommendation!</strong></p>
+    <button onclick="hidePopup()">Ok</button>
+  </div>
+</div>
+
+
+
+
+
+  <!-- Dummy sections -->
+  <section id="about">..</section>
+  <section id="skills">..</section>
+  <section id="projects">..</section>
+  <section id="recommendations">..</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+</body>
+</html>
